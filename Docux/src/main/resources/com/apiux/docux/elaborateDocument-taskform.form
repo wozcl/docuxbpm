@@ -3,6 +3,38 @@
 <property name="name" value="elaborateDocument-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="personAssignee" type="InputText" id="2107859854">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;personAssignee_in (personAssignee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="personAssignee_in"/>
+<property name="outputBinding" value="personAssignee_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="groupAssignee" type="InputText" id="1184146051">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;groupAssignee_in (groupAssignee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="groupAssignee_in"/>
+<property name="outputBinding" value="groupAssignee_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="status" type="InputText" id="2060894257">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status_in (status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="status_in"/>
+<property name="outputBinding" value="status_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="isReasign" type="CheckBox" id="1862175760">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isReasign_in (isReasign)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="isReasign_in"/>
+<property name="outputBinding" value="isReasign_out"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
 <dataHolder inputId="groupAssignee_in" name="#E9E371" type="basicType" outId="groupAssignee_out" value="java.lang.String" id="groupAssignee"/>
 <dataHolder inputId="isReasign_in" name="#E9E371" type="basicType" outId="isReasign_out" value="java.lang.Boolean" id="isReasign"/>
 <dataHolder inputId="personAssignee_in" name="#E9E371" type="basicType" outId="personAssignee_out" value="java.lang.String" id="personAssignee"/>
