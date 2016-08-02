@@ -3,4 +3,8 @@
 <property name="name" value="elaborateDocumentGT-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="groupAssignee_in" name="#E9E371" type="basicType" outId="groupAssignee_out" value="java.lang.String" id="groupAssignee"/>
+<dataHolder inputId="isReasign_in" name="#E9E371" type="basicType" outId="isReasign_out" value="java.lang.Boolean" id="isReasign"/>
+<dataHolder inputId="personAssignee_in" name="#E9E371" type="basicType" outId="personAssignee_out" value="java.lang.String" id="personAssignee"/>
+<dataHolder inputId="withCopy_in" name="#E9E371" type="basicType" outId="withCopy_out" value="java.lang.Boolean" id="withCopy"/>
 </form>
