@@ -3,4 +3,5 @@
 <property name="name" value="Docux.testParallel-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="isReasign_in" name="#E9E371" type="basicType" outId="isReasign_out" value="java.lang.Boolean" id="isReasign"/>
 </form>
