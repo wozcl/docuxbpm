@@ -3,13 +3,13 @@
 <property name="name" value="Docux.testParallel-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="isReasign" type="CheckBox" id="1082686428">
+<field position="0" name="isReasign" type="CheckBox" id="1629810433">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;isReasign_in (isReasign)quot;"/>
+<property name="label" value="quot;enquot;,quot;isReasign (isReasign)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="isReasign_in"/>
-<property name="outputBinding" value="isReasign_out"/>
+<property name="inputBinding" value="isReasign"/>
+<property name="outputBinding" value="isReasign"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<dataHolder inputId="isReasign_in" name="#E9E371" type="basicType" outId="isReasign_out" value="java.lang.Boolean" id="isReasign"/>
+<dataHolder inputId="isReasign" name="#E9E371" type="basicType" outId="isReasign" value="java.lang.Boolean" id="isReasign"/>
 </form>
