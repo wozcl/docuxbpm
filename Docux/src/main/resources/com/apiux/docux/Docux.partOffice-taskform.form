@@ -1,0 +1,127 @@
+
+<form id="952142730">
+<property name="name" value="Docux.partOffice-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="2" name="groupAssignee" type="InputText" id="1206311031">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;groupAssignee (groupAssignee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="groupAssignee"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="idFlowAssociated" type="InputText" id="947029916">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;idFlowAssociated (idFlowAssociated)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="idFlowAssociated"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="lastGroup" type="InputText" id="2012089447">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastGroup (lastGroup)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lastGroup"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="userName" type="InputText" id="1859253054">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;userName (userName)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="userName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="status" type="InputText" id="1608429491">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="lastGroupTitle" type="InputText" id="1868262527">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastGroupTitle (lastGroupTitle)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lastGroupTitle"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="isReasign" type="CheckBox" id="1094892275">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isReasign (isReasign)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="isReasign"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="10" name="lastUser" type="InputText" id="177360611">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastUser (lastUser)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="lastUser"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="idTracing" type="InputText" id="676325564">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;idTracing (idTracing)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="idTracing"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="CDCTitle" type="InputText" id="1337363241">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;CDCTitle (CDCTitle)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="CDCTitle"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="withCopy" type="CheckBox" id="1675338263">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;withCopy (withCopy)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="withCopy"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name="CDC" type="InputText" id="711928717">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;CDC (CDC)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="CDC"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="groupTitle" type="InputText" id="82920891">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;groupTitle (groupTitle)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="groupTitle"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="idTracingAssociated" type="InputText" id="1603783411">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;idTracingAssociated (idTracingAssociated)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="idTracingAssociated"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="personAssignee" type="InputText" id="298511682">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;personAssignee (personAssignee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="personAssignee"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="CDC" value="java.lang.String" id="CDC"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="CDCTitle" value="java.lang.String" id="CDCTitle"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="groupAssignee" value="java.lang.String" id="groupAssignee"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="groupTitle" value="java.lang.String" id="groupTitle"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="idFlowAssociated" value="java.lang.String" id="idFlowAssociated"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="idTracing" value="java.lang.String" id="idTracing"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="idTracingAssociated" value="java.lang.String" id="idTracingAssociated"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="isReasign" value="java.lang.Boolean" id="isReasign"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="lastGroup" value="java.lang.String" id="lastGroup"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="lastGroupTitle" value="java.lang.String" id="lastGroupTitle"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="lastUser" value="java.lang.String" id="lastUser"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="personAssignee" value="java.lang.String" id="personAssignee"/>
+<dataHolder inputId="" name="#FF8881" type="className" outId="personCopies" value="java.util.ArrayList" id="personCopies"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="status" value="java.lang.String" id="status"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="userName" value="java.lang.String" id="userName"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="withCopy" value="java.lang.Boolean" id="withCopy"/>
+</form>
