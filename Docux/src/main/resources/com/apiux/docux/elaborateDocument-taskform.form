@@ -3,27 +3,12 @@
 <property name="name" value="elaborateDocument-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="2" name="groupAssignee" type="InputText" id="1819618210">
+<field position="0" name="CDC" type="InputText" id="908334690">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;groupAssignee_in (groupAssignee)quot;"/>
+<property name="label" value="quot;enquot;,quot;cdc_in (CDC)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="groupAssignee_in"/>
-<property name="outputBinding" value="groupAssignee_out"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="5" name="isReasign" type="CheckBox" id="1439574536">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;isReasign_out (isReasign)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="isReasign_out"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="12" name="userName" type="InputText" id="504711677">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;userName_in (userName)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="userName_in"/>
-<property name="outputBinding" value="userName_out"/>
+<property name="inputBinding" value="cdc_in"/>
+<property name="outputBinding" value="cdc_out"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="1" name="CDCTitle" type="InputText" id="820240603">
@@ -34,35 +19,12 @@
 <property name="outputBinding" value="cdcTittle_out"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="6" name="lastGroup" type="InputText" id="1281782298">
+<field position="2" name="groupAssignee" type="InputText" id="1819618210">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;lastGroup_in (lastGroup)quot;"/>
+<property name="label" value="quot;enquot;,quot;groupAssignee_in (groupAssignee)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="lastGroup_in"/>
-<property name="outputBinding" value="lastGroup_out"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="8" name="lastUser" type="InputText" id="577437596">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;lastUser_in (lastUser)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="lastUser_in"/>
-<property name="outputBinding" value="lastUser_out"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="7" name="lastGroupTitle" type="InputText" id="1277802455">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;lastGroupTitle_in (lastGroupTitle)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="lastGroupTitle_in"/>
-<property name="outputBinding" value="lastGroupTitle_out"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="4" name="idTracing" type="InputText" id="1673559558">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;idTracing_in (idTracing)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="idTracing_in"/>
+<property name="inputBinding" value="groupAssignee_in"/>
+<property name="outputBinding" value="groupAssignee_out"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="3" name="groupTitle" type="InputText" id="463985981">
@@ -73,7 +35,53 @@
 <property name="outputBinding" value="groupTitle_out"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="10" name="personCopies" type="MultipleInput" id="1868476636">
+<field position="4" name="idTracing" type="InputText" id="1673559558">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;idTracing_in (idTracing)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="idTracing_in"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="isReasign" type="CheckBox" id="1439574536">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isReasign_out (isReasign)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="isReasign_out"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="lastGroup" type="InputText" id="1281782298">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastGroup_in (lastGroup)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lastGroup_in"/>
+<property name="outputBinding" value="lastGroup_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="lastGroupTitle" type="InputText" id="1277802455">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastGroupTitle_in (lastGroupTitle)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lastGroupTitle_in"/>
+<property name="outputBinding" value="lastGroupTitle_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="lastUser" type="InputText" id="577437596">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastUser_in (lastUser)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="lastUser_in"/>
+<property name="outputBinding" value="lastUser_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="personAssignee" type="InputText" id="1182201239">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;personAssignee_in (personAssignee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="personAssignee_in"/>
+<property name="outputBinding" value="personAssignee_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="personCopies" type="CustomInput" id="1868476636">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;personCopies (personCopies)quot;"/>
 <property name="readonly" value="false"/>
@@ -88,20 +96,12 @@
 <property name="outputBinding" value="status_out"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="0" name="CDC" type="InputText" id="908334690">
+<field position="12" name="userName" type="InputText" id="504711677">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;cdc_in (CDC)quot;"/>
+<property name="label" value="quot;enquot;,quot;userName_in (userName)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="cdc_in"/>
-<property name="outputBinding" value="cdc_out"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="9" name="personAssignee" type="InputText" id="1182201239">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;personAssignee_in (personAssignee)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="personAssignee_in"/>
-<property name="outputBinding" value="personAssignee_out"/>
+<property name="inputBinding" value="userName_in"/>
+<property name="outputBinding" value="userName_out"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <field position="13" name="withCopy" type="CheckBox" id="1545367976">
