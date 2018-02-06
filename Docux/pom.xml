@@ -10,7 +10,7 @@
   <dependencies>
     <dependency>
       <groupId>cl.apiux.bpm.docux</groupId>
-      <artifactId>docux-sernac-script</artifactId>
+      <artifactId>docux-sernac-bpm-script</artifactId>
       <version>1.0</version>
     </dependency>
   </dependencies>
