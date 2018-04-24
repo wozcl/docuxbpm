@@ -7,13 +7,6 @@
   <version>1.0</version>
   <name>Docux</name>
   <description>Proyecto de oficina de partes</description>
-  <dependencies>
-    <dependency>
-      <groupId>cl.apiux.bpm.docux</groupId>
-      <artifactId>docux-sernac-bpm-script</artifactId>
-      <version>1.0</version>
-    </dependency>
-  </dependencies>
   <build>
     <plugins>
       <plugin>
