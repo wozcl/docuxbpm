@@ -1,0 +1,33 @@
+
+<form id="1442062429">
+<property name="name" value="Docux.procedureManager-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="personAssignee" type="InputText" id="621911809">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;personAssignee (personAssignee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="personAssignee"/>
+<property name="outputBinding" value="personAssignee"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="groupAssignee" type="InputText" id="60495238">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;groupAssignee (groupAssignee)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="groupAssignee"/>
+<property name="outputBinding" value="groupAssignee"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="withCopy" type="CheckBox" id="1414106542">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;withCopy (withCopy)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="withCopy"/>
+<property name="outputBinding" value="withCopy"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="groupAssignee" name="#E9E371" type="basicType" outId="groupAssignee" value="java.lang.String" id="groupAssignee"/>
+<dataHolder inputId="personAssignee" name="#E9E371" type="basicType" outId="personAssignee" value="java.lang.String" id="personAssignee"/>
+<dataHolder inputId="withCopy" name="#E9E371" type="basicType" outId="withCopy" value="java.lang.Boolean" id="withCopy"/>
+</form>
